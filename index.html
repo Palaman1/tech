@@ -7,10 +7,12 @@
   <title>Technology+ Сервіс з встановлення відеоспостереження</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container__top">
       <div class="header__top">
         <button class="brgr__btn">
@@ -27,9 +29,14 @@
             </a>
           </li>
           <li class="brgr__list-item">
-            <a class="brgr__list-link" href="#servises">
+            <a class="brgr__list-link" href="#services">
               Послуги
             </a>
+            <span class="brgr__list-span">
+              <a class="brgr-tel" href="tel:+38096-801-53-40">
+                +38096-801-53-40
+              </a>
+            </span>
           </li>
           <li class="brgr__list-item">
             <a class="brgr__list-link" href="#faq">
@@ -47,12 +54,12 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#servis">
+              <a class="menu__list-link" href="#service">
                 Сервіс
               </a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#servises">
+              <a class="menu__list-link" href="#price">
                 Послуги
               </a>
             </li>
@@ -168,7 +175,7 @@
       </div>
     </div>
   </section>
-  <section class="about">
+  <section class="about" id="service">
     <div class="container__bottom">
       <div class="about-service__wrapper">
         <div class="about-service">
@@ -234,14 +241,16 @@
           </ul>
         </div>
       </div>
-      <div class="about-price">
-        <h2 class="about-price-title">
+      <div class="about-price" id="price">
+        <h2 class="about-price__title">
           Вартість послуг
         </h2>
         <ul class="about-price__list">
           <li class="about-price__list-item">
             <div class="about-price__item">
-              Встановлення та налаштування камери (матеріал окремо)
+              <p class="about-price__text">
+                Встановлення та налаштування камери (матеріал окремо)
+              </p>
               <span class="about-price__span">
                 від 150 грн.
               </span>
@@ -249,7 +258,9 @@
           </li>
           <li class="about-price__list-item">
             <div class="about-price__item">
-              Налаштування мережі wi-fi
+              <p class="about-price__text">
+                Налаштування мережі wi-fi
+              </p>
               <span class="about-price__span">
                 від 100 грн.
               </span>
@@ -257,7 +268,9 @@
           </li>
           <li class="about-price__list-item">
             <div class="about-price__item">
-              Обслуговування та ремонт раніше встановленої камери
+              <p class="about-price__text">
+                Обслуговування та ремонт раніше встановленої камери
+              </p>  
               <span class="about-price__span">
                 від 25 грн./шт.
               </span>
@@ -265,15 +278,19 @@
           </li>
           <li class="about-price__list-item">
             <div class="about-price__item">
-              Встановлення та налаштування відео-домофону
-            <span class="about-price__span">
-              від 300 грн.
-            </span>
-          </div>
+              <p class="about-price__text">
+                Встановлення та налаштування відео-домофону
+              </p>
+              <span class="about-price__span">
+                від 300 грн.
+              </span>
+            </div>
           </li>
           <li class="about-price__list-item">
             <div class="about-price__item">
+            <p class="about-price__text">
               Встановлення операційної системи та програм
+            </p>
             <span class="about-price__span">
               від 300 грн.
             </span>
@@ -320,7 +337,7 @@
       </div>
     </div>
   </section>
-  <section class="form">
+  <section class="form" id="form">
     <div class="container__bottom">
       <div class="form__content">
         <h2 class="form__title">
@@ -345,7 +362,7 @@
       <img class="form__img" src="images/form.webp" alt="Замовити консультацію">
     </div>
   </section>
-  <section class="faq">
+  <section class="faq" id="faq">
     <div class="container__bottom">
       <h2 class="faq__title">
         Поширені питання
@@ -479,7 +496,7 @@
         </ul>
         <ul class="footer__menu-list">
           <li class="menu-list__item">
-            <a class="menu-list__about" href="#about">
+            <a class="menu-list__about" href="#service">
               Про сервіс
             </a>
           </li>
