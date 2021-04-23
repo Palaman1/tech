@@ -78,7 +78,7 @@ h1{
 .container__bottom{
   max-width: 1160px;
   padding: 0 0 0 30px;
-  margin: 0 auto;
+  margin: -2px auto 0;
 }
 
 .header{
@@ -473,7 +473,7 @@ h1{
 
 .form__img{
   right: 0;
-  margin-top: -674px;
+  margin-top: -676px;
   position: absolute;
 }
 
