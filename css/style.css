@@ -473,7 +473,8 @@ h1{
 
 .form__img{
   right: 0;
-  margin-top: -674px;
+  height: 860px;
+  margin-top: -719px;
   position: absolute;
 }
 
@@ -676,15 +677,20 @@ h1{
     margin-right: 38px;
   }
 
+  .about-service__wrapper{
+  margin-bottom: 200px;
+  }
+
   .about-service__img{
     left: 0;
     margin-left: auto;
     width: 50%;
     height: 70%;
   }
+  
   .form__img {
     width: 50%;
-    height: 83.3%;
+    height: 860px;
   }
 }
 
@@ -700,7 +706,6 @@ h1{
     position: relative;
     height: 30px;
   }
-
   
   .brgr__btn::before{
     display: block;
@@ -723,6 +728,10 @@ h1{
   .brgr__list-item{
     margin-top: 16%;
     font-size: 26px;
+  }
+
+  .brgr-tel{
+    display: none;
   }
 
   .link__logo{
@@ -775,7 +784,7 @@ h1{
 
   .about-us__img{
     width: 70%;
-    height: 40%;
+    height: 460px;
   }
 
   .about-us__wrapper{
@@ -914,6 +923,7 @@ h1{
 
   .brgr-tel{
     color: #fff;
+    display: block;
   }
 
   .link__logo{
@@ -1039,6 +1049,7 @@ h1{
 
   .form__title{
     margin: 60px 0 46px;
+    text-align: center;
   }
 
   .faq{
@@ -1101,7 +1112,8 @@ h1{
 
 @media (max-width: 470px){
   .header{
-    background-image: url(../images/bg__mob.webp); 
+    background-image: url(../images/bg__mob.webp);
+    background-position: bottom center;
   }
 
   .header__top{
@@ -1119,7 +1131,7 @@ h1{
   }
 
   .brgr__list-item{
-    margin-top: 140px;
+    margin: 140px 0 0 10px;
     text-align-last: left;
   }
 
@@ -1129,7 +1141,7 @@ h1{
 
   .brgr__list-span{
     margin-top: 160px;
-    margin-left: -114px;
+    margin-left: -112px;
   }
 
   .link__logo{
@@ -1141,8 +1153,8 @@ h1{
     width: 28px;
   }
 
-  .lang__ua,
-  .lang__devider{
+  .lang span,
+  .lang p{
     display: none;
   }
 
