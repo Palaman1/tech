@@ -335,7 +335,7 @@ h1{
   margin: 282px 0 188px;
 }
 
-.about-price-title{
+.about-price__title{
   font-size: 36px;
   line-height: 46px;
   font-weight: 400;
@@ -605,7 +605,6 @@ h1{
   margin-top: 4px;
   margin-bottom: -86px;
   max-width: 544px;
-  border-top: 1px solid #282828;
 } 
 
 .footer{
@@ -620,6 +619,15 @@ h1{
   color: #fff;
   border-bottom: 2px solid #6B6B6B;
   padding-bottom: 74px;
+}
+
+.footer__btn{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  margin-top: -84px;
+  margin-left: 40%;
+  display: none;
 }
 
 .footer-link__logo{
@@ -651,10 +659,6 @@ h1{
 
 
 @media (max-width: 1220px){
-  .header{
-    background-image: url(../images/bg__mid.webp);
-  }
-
   .menu{
     margin-right: -22px;
   }
@@ -677,7 +681,7 @@ h1{
 
 @media (max-width: 920px){
   .header{
-    background-image: url(../images/bg__small.webp);
+    background-image: url(../images/bg__mid.webp);
   }
 
   .brgr__btn{
@@ -738,7 +742,7 @@ h1{
 
   .services-item__title,
   .services-item__text{
-    max-width: 270px;
+    max-width: 254px;
   }
 
   .item__b{
@@ -773,10 +777,6 @@ h1{
     max-width: 298px;
   }
   
-  .about-price{
-    text-align: center;
-  }
-  
   .about-price__list{
     max-width: 96%;
   }
@@ -806,31 +806,56 @@ h1{
   }
 
   .footer__bottom{
-    padding-top: 60px;
+    padding-top: 30px;
+    text-align: center;
   }
 
   .footer__bottom-text{
-    position: absolute;
-    margin-top: -46px;
+    position: relative;
+    margin-bottom: 35px;
   }
 
   .footer__bottom-mail {
+    margin-right: 0;
     margin-left: 0;
   }
 }
 
 @media (max-width: 726px){
+  .header{
+    background-image: url(../images/bg__small.webp);
+  }
+
   .tel{
     margin-left: 44%;
   }
 
+  .about-price__list-item{
+    height: 70px;
+  }
+
+  .about-price__text{
+    padding-right: 156px;
+  }
+
+  .about-price__span{
+    position: absolute;
+    right: 0;
+    margin: 24px 30px 0 0;
+
+  }
+
+  .about-price__item text{
+    left: 0;
+  }
+
   .form__content{
     margin: 0 auto;
-    text-align: center;
   }
 
   .form__text{
-    max-width: 100%;
+    margin: 0 auto 66px;
+    width: 260px;
   }
   
   .form__img{
@@ -840,11 +865,28 @@ h1{
   .accordion-title {
     font-size: 18px;
   }
+  
+  .footer__bottom{
+    display: block;
+    padding-top: 80px;
+  }
+
+  .footer__bottom-rights{
+    margin-top: 48px;
+  }
 }
 
 @media (max-width: 640px){
+  .header{
+    min-height: 100vh;
+  }
+
   .container__bottom{
     padding-left: 0;
+  }
+
+  .header__top{
+    margin-bottom: 0;
   }
 
   .link__logo{
@@ -855,6 +897,27 @@ h1{
     display: none;
   }
 
+  .header__usp{
+    margin: 90px 0 0 20px;
+  }
+
+  .header__usp-title {
+    font-size: 34px;
+  }
+
+  .numbers{
+    margin: 120px auto 0;
+  }
+
+  .services{
+    padding: 0;
+  }
+
+  .services-title{
+    margin: 0 0 80px;
+    padding-top: 50px;
+  }
+
   .about-service__wrapper{
     display: block;
     margin-bottom: 80px;
@@ -862,7 +925,7 @@ h1{
 
   .about-service{
     width: 290px;
-    margin: 130px 0 60px 30px;
+    margin: 50px 0 50px 30px;
   }
 
   .about-service__title{
@@ -876,16 +939,23 @@ h1{
   }
 
   .about-us__wrapper{
+    display: flex;
     margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 0;
+  }
+
+  .about-wrapper__list{
+    width: 320px;
   }
 
   .about-us__img{
     width: 100%;
-    margin: 434px auto 0;
+    margin: 360px auto 0;
   }
 
   .about-price{
-    margin-top: 564px;
+    margin: 440px 0 80px;
     padding-left: 10px;
   }
 
@@ -893,20 +963,188 @@ h1{
     max-width: 200px;
   }
 
+  .services{
+    padding-bottom: 50px;
+  }
+
+  .services-items{
+    display: block;
+  }
+
   .services-item{
     padding-right: 10px;
     padding-left: 10px;
+    margin: 0 auto 70px;
+    width: 360px;
+    text-align: center;
+  }
+
+  .services-item__text{
+    margin: 0 auto;
+  }
+
+  .item__b{
+    margin: 0 auto 70px;
+  }
+
+  .work{
+    padding: 60px 0 80px;
+  }
+
+  .work-items{
+    display: block;
   }
 
   .work-items__item{
     max-width: 222px;
+    margin: 0 auto 70px;
+  }
+
+  .work-item__b{
+    margin-top: 0;
+    margin: 0 auto 70px;
+  }
+
+  .form__title{
+    margin: 60px 0 46px;
   }
 
   .faq{
-    padding-left: 10px;
+    padding: 60px 16px 80px 10px;
+  }
+
+  .accordion-title svg{
+    width: 44px;
+    left: 44%;
+    bottom: 12%;
+  }
+
+  .accordion-title circle,
+  .accordion-select:checked + .accordion-title circle{
+    stroke: transparent;
+  }
+
+  .accordion-select:checked + .accordion-title path{
+    stroke: transparent;
+  }
+
+  .accordion-title{
+    display: block;
+    font-size: 14px; 
+    text-align: center;
+  }
+
+  .accordion-content{
+    font-size: 13px;
+    text-align: center;
   }
 
   .footer{
     padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .footer__btn{
+    display: block;
+  }
+  
+  .footer__menu-list{
+    display: none;
+  }
+
+  .footer__link{
+    margin-top: 10px;
+  }
+  
+}
+
+@media (max-width: 470px){
+  .header{
+    background-image: url(../images/bg__mob.webp); 
+  }
+
+  .link__logo{
+    margin-left: 22%;
+  }
+
+  .header__usp{
+    margin-left: 12px;
+    text-align: center;
+  }
+
+  .header__usp-title {
+    font-size: 28px;
+  }
+
+  .header__usp-text{
+    max-width: 300px;
+    margin: 0 auto 50px;
+  }
+
+  .numbers{
+    display: none;
+  }
+
+  .services-item__title{
+    width: 210px;
+    text-align: center;
+  }
+
+  .about-price__list-item{
+    height: 90px;
+  }
+
+  .about-price__title{
+    text-align: center;
+  }
+
+  .form__title{
+    text-align: center;
+  }
+
+  .form__text{
+    text-align: center;
+  }
+
+  .form__input{
+    padding: 0 12px;
+  }
+
+  .form__input input{
+    width: 100%;
+    height: 32px;
+  }
+  
+  .form__label input{
+    width: 13px;
+    margin-top: -4px;
+  }
+
+  .form__btn{
+    width: 100%;
+  }
+
+  .footer__top{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer__btn{
+    left: 0;
+    margin-top: -105px;
+    padding-left: 14px;
+  }
+
+  .footer-link__logo{
+    margin-top: 40px;
+  }
+
+  .footer__contact-list{
+    margin-top: 80px !important;
+  }
+
+  .footer__link{
+    display: none;
   }
 }
