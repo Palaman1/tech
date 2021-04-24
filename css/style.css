@@ -78,7 +78,7 @@ h1{
 .container__bottom{
   max-width: 1160px;
   padding: 0 0 0 30px;
-  margin: -2px auto 0;
+  margin: 0 auto;
 }
 
 .header{
@@ -145,6 +145,12 @@ h1{
 
 .menu__list-item + .menu__list-item{
   margin-left: 50px;
+}
+
+.menu__tel-link{
+  position: absolute;
+  right: 32%;
+  width: 40px;
 }
 
 .tel{
@@ -256,6 +262,7 @@ h1{
   width: 70%;
   height: 70%;
   position: absolute;
+
 }
 
 .about-service__wrapper{
@@ -478,7 +485,7 @@ h1{
 
 .form__img-b{
   height: 860px;
-  margin-top: -720px;
+  margin-top: -719px;
 }
 
 .faq{
@@ -653,8 +660,28 @@ h1{
   margin: 12px 0;
 }
 
+.footer__link{
+  height: 26px;
+}
+
 .footer__top a{
   color: #fff;
+}
+
+.footer__items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.footer__t-link{
+  color: #0085FF !important;
+}
+
+.footer__t-link svg{
+  margin-right: 15px;
+  vertical-align: bottom;
 }
 
 .footer__bottom{
@@ -674,6 +701,10 @@ h1{
 @media (max-width: 1220px){
   .menu{
     margin-right: -22px;
+  }
+
+  .menu__tel-link{
+    right: 316px;
   }
 
   .tel{
@@ -704,6 +735,14 @@ h1{
 @media (max-width: 920px){
   .header{
     background-image: url(../images/bg__mid.webp);
+  }
+
+  .tel-link{
+    display: none;
+  }
+
+  .menu__tel-link{
+    right: 47%;
   }
 
   .brgr__btn{
@@ -743,7 +782,7 @@ h1{
 
   .link__logo{
     margin-top: 2px;
-    margin-left: 20%;
+    margin-left: 17%;
     position: absolute;
   }
 
@@ -851,6 +890,11 @@ h1{
     background-image: url(../images/bg__small.webp);
   }
 
+  .menu__tel-link{
+    display: block;
+    right: 50%;
+  }
+
   .brgr__list{
     height: 180px;
   }
@@ -914,8 +958,17 @@ h1{
     margin-bottom: 0;
   }
 
+  .tel-link{
+    display: block;
+    margin-right: 16px;
+  }
+
+  .menu__tel-link{
+    display: none;
+  }
+
   .brgr__list{
-    height: 292px;
+    height: 300px;
   }
 
   .brgr__list-item{
@@ -924,8 +977,9 @@ h1{
 
   .brgr__list-span{
     position: absolute;
+    display: flex;
     margin-top: 88px;
-    margin-left: -180px;
+    margin-left: -84px;
   }
 
   .brgr-tel{
@@ -1004,7 +1058,7 @@ h1{
   }
 
   .about-price{
-    margin: 440px 0 80px;
+    margin: 588px 0 80px;
     padding-left: 10px;
   }
 
@@ -1127,13 +1181,18 @@ h1{
     margin: 53px 30px 0;
   }
 
+  .tel-link{
+    position: absolute;
+    margin-left: 110%;
+  }
+
   .brgr__btn::before {
     margin-left: -30px;
   }
 
   .brgr__list{
     display: block;
-    height: 426px;
+    height: 444px;
     font-size: 26px;
   }
 
@@ -1148,7 +1207,7 @@ h1{
 
   .brgr__list-span{
     margin-top: 160px;
-    margin-left: -112px;
+    margin-left: 0;
   }
 
   .link__logo{
@@ -1221,10 +1280,6 @@ h1{
   .form__btn{
     width: 100%;
   }
-  
-  .accordion-title {
-    font-size: 12px;
-  }
 
   .footer__top{
     margin-top: 50px;
@@ -1247,5 +1302,11 @@ h1{
 
   .footer__link{
     display: none;
+  }
+
+  .footer__t-link{
+    position: absolute;
+    margin-top: 208px;
+    margin-left: -152px;
   }
 }
