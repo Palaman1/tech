@@ -1221,6 +1221,10 @@ h1{
   .form__btn{
     width: 100%;
   }
+  
+  .accordion-title {
+    font-size: 12px;
+  }
 
   .footer__top{
     margin-top: 50px;
