@@ -472,19 +472,18 @@ h1{
 
 .form__img{
   right: 0;
-  margin-top: -676px;
+  margin-top: -672px;
   position: absolute;
 }
 
 .form__img-b{
-  height: 860px;
-  margin-top: -720px;
+  height: 858px;
+  margin-top: -717px;
 }
 
 .faq{
   background-color: #282828;
   padding: 130px 50px 160px 0;
-  margin-top: -2px;
 }
 
 .faq__title{
