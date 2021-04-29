@@ -87,7 +87,7 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 900px;
-
+  padding: 0 8%;
 }
 
 .header__top{
