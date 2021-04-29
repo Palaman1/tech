@@ -134,7 +134,7 @@ h1{
 
 .menu{
   margin-left: auto;
-  margin-right: -118px;
+  margin-right: auto;
 }
 
 .menu__list{
@@ -156,6 +156,7 @@ h1{
 .tel{
   margin-left: auto;
   margin-right: 98px;
+  vertical-align: top;
 }
 
 .lang{
@@ -700,10 +701,6 @@ h1{
 
 
 @media (max-width: 1220px){
-  .menu{
-    margin-right: -22px;
-  }
-
   .menu__tel-link{
     right: 316px;
   }
@@ -733,7 +730,7 @@ h1{
   }
 }
 
-@media (max-width: 920px){
+@media (max-width: 1060px){
   .header{
     background-image: url(../images/bg__mid.webp);
   }
