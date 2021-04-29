@@ -147,9 +147,12 @@ h1{
   margin-left: 50px;
 }
 
+.header__links{
+  width: 230px;
+  margin-left: auto;
+}
+
 .menu__tel-link{
-  position: absolute;
-  right: 32%;
   width: 40px;
 }
 
@@ -701,14 +704,6 @@ h1{
 
 
 @media (max-width: 1220px){
-  .menu__tel-link{
-    right: 316px;
-  }
-
-  .tel{
-    margin-right: 38px;
-  }
-
   .about-service__wrapper{
     margin-bottom: 200px;
   }
@@ -737,10 +732,6 @@ h1{
 
   .tel-link{
     display: none;
-  }
-
-  .menu__tel-link{
-    right: 47%;
   }
 
   .brgr__btn{
