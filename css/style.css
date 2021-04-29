@@ -148,8 +148,10 @@ h1{
 }
 
 .header__links{
-  width: 230px;
+  width: 180px;
   margin-left: auto;
+  margin-right: -20%;
+  display: flex;
 }
 
 .menu__tel-link{
@@ -158,8 +160,8 @@ h1{
 
 .tel{
   margin-left: auto;
-  margin-right: 98px;
   vertical-align: top;
+  width: 198px;
 }
 
 .lang{
@@ -771,16 +773,16 @@ h1{
 
   .link__logo{
     margin-top: 2px;
-    margin-left: 17%;
+    margin-left: 10%;
     position: absolute;
   }
 
   .menu{
     display: none;
   }
-
-  .tel{
-    margin-left: 50%;
+  
+  .header__links {
+    display: flex;
   }
 
   .lang{
