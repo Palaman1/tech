@@ -1239,7 +1239,7 @@ h1{
   }
   
   .services-item {
-    min-width: 280px;
+    width: 316px;
   }
 
   .services-item__title{
