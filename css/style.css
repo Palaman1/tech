@@ -1193,7 +1193,7 @@ h1{
   }
 
   .brgr__list-item{
-    margin: 140px 0 0 10px;
+    margin: 140px 0 0 30px;
     text-align-last: left;
   }
 
@@ -1208,7 +1208,7 @@ h1{
 
   .link__logo{
     position: relative;
-    margin-left: 22%;
+    margin-left: 15%;
   }
 
   .lang{
@@ -1226,7 +1226,7 @@ h1{
   }
 
   .header__usp-title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .header__usp-text{
@@ -1237,6 +1237,10 @@ h1{
   .numbers{
     display: none;
   }
+  
+  .services-item {
+    min-width: 280px;
+  }
 
   .services-item__title{
     width: 210px;
@@ -1244,7 +1248,7 @@ h1{
   }
 
   .about-price__list-item{
-    height: 90px;
+    height: 148px;
   }
 
   .about-price__title{
