@@ -1171,6 +1171,7 @@ h1{
   .header{
     background-image: url(../images/bg__mob.webp);
     background-position: bottom center;
+    height: 660px;
   }
 
   .header__top{
