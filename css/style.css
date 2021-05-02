@@ -943,7 +943,7 @@ h1{
 
 @media (max-width: 640px){
   .header{
-    min-height: 100vh;
+    min-height: 712px;
   }
 
   .header__top{
