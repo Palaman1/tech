@@ -15,5 +15,12 @@ $(function () {
     $('body,html').animate({scrollTop: top}, 1500);
 
   });
+  
+  $('marquee').mouseover(function () {
+    $(this).attr('scrollamount', 0);
+  })
+    .mouseout(function () {
+    $(this).attr('scrollamount', 5);
+  });
 
 });
