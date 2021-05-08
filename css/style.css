@@ -1313,6 +1313,6 @@ h1{
   .footer__t-link{
     position: absolute;
     margin-top: 208px;
-    margin-left: -152px;
+    right: 35%;
   }
 }
