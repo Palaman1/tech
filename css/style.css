@@ -1247,6 +1247,10 @@ h1{
     width: 210px;
     text-align: center;
   }
+  
+  .services-item__text{
+    font-size: 14px; 
+  }
 
   .about-price__list-item{
     height: 148px;
