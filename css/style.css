@@ -1196,6 +1196,7 @@ h1{
   .brgr__list-item{
     margin: 140px 0 0 30px;
     text-align-last: left;
+    width: 100%;
   }
 
   .brgr__list-item + .brgr__list-item{
