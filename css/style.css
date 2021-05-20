@@ -343,6 +343,11 @@ h1{
   margin-top: 4px;
 }
 
+.about-wrapper__list-item path{
+  width: 14px;
+  height: 14px;
+}
+
 .about-wrapper__text{
   margin-left: 18px;
 }
