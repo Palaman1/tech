@@ -453,7 +453,7 @@ a {
 }
 
 .about-us__img {
-  margin-left: -260px;
+  left: 0;
   position: absolute;
 }
 
