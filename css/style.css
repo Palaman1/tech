@@ -294,8 +294,9 @@ a {
 
 /* end footer */
 .header__stripe {
-  margin-left: -30px;
-  width: 100vw;
+  position: absolute;
+  left: 0;
+  width: 100%;
   border-bottom: 1px solid #0085FF;
 }
 
@@ -817,9 +818,6 @@ a {
 
 /* end content */
 @media (max-width: 1220px) {
-  .header__stripe {
-    margin-left: -20px;
-  }
   .menu__tel-link {
     right: 316px;
   }
@@ -1074,9 +1072,6 @@ a {
   }
   .tel {
     display: none;
-  }
-  .header__stripe {
-    margin-left: -10px;
   }
   .header__usp {
     margin: 90px 0 0 20px;
