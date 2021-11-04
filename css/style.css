@@ -298,6 +298,7 @@ a {
   left: 0;
   width: 100%;
   border-bottom: 1px solid #0085FF;
+  padding-top: 20px;
 }
 
 /* start usp */
@@ -983,6 +984,9 @@ a {
   .header {
     background-image: url(../images/bg__small.webp);
   }
+  .header__usp {
+    padding-top: 100px;
+  }
   .menu__tel-link {
     display: block;
     right: 50%;
@@ -1227,7 +1231,7 @@ a {
     background-position: bottom center;
   }
   .header__top {
-    margin: 53px 30px 0;
+    margin: 40px 30px 0;
   }
   .tel-link {
     position: absolute;
