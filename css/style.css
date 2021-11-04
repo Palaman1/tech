@@ -785,7 +785,7 @@ a {
 .content-six--active {
   margin-bottom: 10px;
   opacity: 100%;
-  opacity: 0.1s;
+  transition: 0.5s;
 }
 
 .svg-one--active,
