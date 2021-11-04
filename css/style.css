@@ -459,8 +459,8 @@ a {
 }
 
 .about-us__wrapper {
-  max-width: 570px;
-  margin-left: 590px;
+  max-width: 460px;
+  margin-left: auto;
   padding-top: 62px;
 }
 
@@ -834,6 +834,10 @@ a {
     width: 50%;
     height: 600px;
   }
+  .about-us__img {
+    width: 51%;
+    height: 40%;
+  }
   .form__img {
     width: 50%;
     height: 818px;
@@ -934,12 +938,14 @@ a {
   .about-service__text {
     max-width: 276px;
   }
-  .about-us__img {
-    width: 70%;
-    height: 460px;
+  .about-us {
+    padding-top: 34px;
   }
   .about-us__wrapper {
     margin-left: 49%;
+  }
+  .about-wrapper__list {
+    margin-left: 30px;
   }
   .about-wrapper__text {
     max-width: 298px;
@@ -1231,7 +1237,7 @@ a {
     background-position: bottom center;
   }
   .header__top {
-    margin: 40px 30px 0;
+    margin: 40px 20px 0;
   }
   .tel-link {
     position: absolute;
@@ -1259,7 +1265,7 @@ a {
   }
   .link__logo {
     position: relative;
-    margin-left: 22%;
+    margin-left: auto;
   }
   .lang {
     width: 28px;
@@ -1267,6 +1273,9 @@ a {
   .lang span,
   .lang p {
     display: none;
+  }
+  .lang__ru {
+  
   }
   .header__usp {
     margin-left: 0;
