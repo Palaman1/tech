@@ -783,7 +783,7 @@ a {
 .content-four--active,
 .content-five--active,
 .content-six--active {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   opacity: 100%;
   opacity: 0.1s;
 }
@@ -1234,7 +1234,7 @@ a {
     margin-left: 110%;
   }
   .brgr__btn::before {
-    margin-left: -30px;
+    margin-left: -13px;
   }
   .brgr__list {
     display: block;
