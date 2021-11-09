@@ -981,7 +981,7 @@ a {
     background-image: url(../images/bg__small.png);
   }
   .header__usp {
-    padding-top: 100px;
+    padding-top: 10%;
   }
   .menu__tel-link {
     display: block;
