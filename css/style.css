@@ -805,6 +805,10 @@ a {
   transition: all 0.3s;
 }
 
+.accordion-content p {
+  max-width: 90%;
+}
+  
 .content-one--active,
 .content-two--active,
 .content-three--active,
