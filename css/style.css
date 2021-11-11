@@ -802,10 +802,6 @@ a {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-
-.accordion-content p {
-  max-width: 90%;
-}
   
 .content-one--active,
 .content-two--active,
@@ -813,7 +809,7 @@ a {
 .content-four--active,
 .content-five--active,
 .content-six--active {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   opacity: 100%;
   transition: all 0.5s;
 }
@@ -844,6 +840,10 @@ a {
 .svg-six--active circle,
 .svg-six--active path {
   stroke: #0085FF;
+}
+
+.svg-five {
+  bottom: 6%;
 }
 
 /* end content */
@@ -1235,8 +1235,8 @@ a {
     padding: 11px;
   }
   .title-five {
-    padding: 30px 0 0 23px;
-    height: 150px;
+    padding: 14px 0 0 23px;
+    height: 168px;
   }
   .footer {
     padding: 104px 0 24px;
