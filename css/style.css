@@ -1219,7 +1219,6 @@ a {
   }
   .accordion-title svg {
     width: 44px;
-    left: 44%;
     bottom: 12%;
   }
   .accordion-title circle,
@@ -1232,19 +1231,20 @@ a {
   .accordion-title {
     display: block;
     font-size: 16px;
-    padding: 6px 0;
+    padding: 6px 10px;
     text-align: center;
   }
+  
+  .accordion-title__span {
+    display: inline-block; 
+  }
+    
   .accordion-content {
     font-size: 13px;
     text-align: center;
   }
-  .accordion-title {
-    padding: 11px;
-  }
   .title-five {
     padding: 14px 0 0 23px;
-    height: 168px;
   }
   .footer {
     padding: 104px 0 24px;
