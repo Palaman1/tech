@@ -696,8 +696,9 @@ a {
 
 .form__img {
   right: 0;
-  max-height: 844px;
-  margin-top: -677px;
+  max-height: 794px;
+  height: fit-content;
+  margin-top: -656px;
   position: absolute;
   z-index: 0;
 }
@@ -855,7 +856,7 @@ a {
     margin-right: 38px;
   }
   .about-service__wrapper {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .about-service__img {
     left: 0;
@@ -864,12 +865,11 @@ a {
     height: 600px;
   }
   .about-us__img {
-    width: 51%;
+    width: 50%;
     height: 40%;
   }
   .form__img {
     width: 50%;
-    height: 818px;
   }
   .form__img-b {
     height: 864px;
@@ -962,7 +962,6 @@ a {
     left: 0;
     margin-left: auto;
     width: 49%;
-    height: 68%;
   }
   .about-service__text {
     max-width: 276px;
@@ -970,8 +969,11 @@ a {
   .about-us {
     padding-top: 34px;
   }
+  .about-us__img {
+    width: 51%;
+  }
   .about-us__wrapper {
-    margin-left: 49%;
+    margin-left: 50%;
   }
   .about-wrapper__list {
     margin-left: 30px;
