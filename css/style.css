@@ -135,6 +135,11 @@ h1 {
   -webkit-transition: all .5s;
   -o-transition: all .5s;
   transition: all .5s;
+  opacity: 0;
+}
+
+.brgr__list--active {
+  opacity: 100;
 }
 
 .brgr__list a {
@@ -802,6 +807,7 @@ a {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  opacity: 0;
 }
   
 .content-one--active,
@@ -811,7 +817,7 @@ a {
 .content-five--active,
 .content-six--active {
   margin-bottom: 20px;
-  opacity: 100%;
+  opacity: 100;
   transition: all 0.5s;
 }
 
