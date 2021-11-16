@@ -657,38 +657,6 @@ a {
 .form__checkbox {
   position: absolute;
   z-index: -1;
-  opacity: 0;
-}
-
-.custom-checkbox+label {
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-}
-.custom-checkbox+label::before {
-  content: '';
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  flex-shrink: 0;
-  flex-grow: 0;
-  border: 1px solid #adb5bd;
-  border-radius: 0.25em;
-  margin-right: 0.5em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
-}
-
-.custom-checkbox:checked+label::before {
-  border-color: #8c8c8c;
-  background-color: #8c8c8c;
-  background-image: url(<svg id="SvgjsSvg1011" width="288" height="288" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1012"></defs><g id="SvgjsG1013" transform="matrix(1,0,0,1,0,0)"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 11 8"><path fill="#ffffff" fill-rule="evenodd" d="M259 207.6l-6.768 6.4-.001-.001V214L248 210l1.692-1.6 2.539 2.4 5.077-4.8z" transform="translate(-248 -206)" class="color000 svgShape"></path></svg></g></svg>)  
-}
-
-.custom-checkbox:not(:disabled):active+label::before {
-  background-color: #8c8c8c;
-  border-color: #8c8c8c;
 }
 
 .form__btn {
@@ -793,7 +761,7 @@ a {
 
 .accordion-title svg {
   position: absolute;
-  right: 0;
+  right: -22px;
 }
 
 .accordion-content {
