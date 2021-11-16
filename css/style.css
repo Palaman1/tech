@@ -654,11 +654,6 @@ a {
   margin-right: 10px;
 }
 
-.form__checkbox {
-  position: absolute;
-  z-index: -1;
-}
-
 .form__btn {
   background-color: transparent;
   padding: 20px 24px;
