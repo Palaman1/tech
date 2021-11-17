@@ -1310,6 +1310,12 @@ a {
   .about-price__title {
     text-align: center;
   }
+  .about-price__text {
+    padding-right: auto;
+  }
+  .about-price__span {
+    margin-top: 56px;
+  }
   .form__title {
     text-align: center;
   }
@@ -1339,7 +1345,7 @@ a {
   }
   .footer__btn {
     left: 0;
-    padding-left: 14px;
+    padding-left: 0;
   }
   .footer-link__logo {
     margin-top: 40px;
