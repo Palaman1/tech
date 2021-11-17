@@ -148,6 +148,7 @@ h1 {
 
 .link__logo {
   margin-top: 2px;
+  max-width: 120px;
 }
 
 .menu {
@@ -240,6 +241,7 @@ a {
 }
 
 .footer-link__logo {
+  max-width: 120px;
   height: 20px;
 }
 
