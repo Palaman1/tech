@@ -684,6 +684,7 @@ a {
 }
 
 .faq__title {
+  text-align: center;
   color: #fff;
   font-size: 36px;
   line-height: 46px;
@@ -759,7 +760,7 @@ a {
 
 .accordion-title svg {
   position: absolute;
-  right: -22px;
+  right: -32px;
 }
 
 .accordion-content {
