@@ -1304,6 +1304,9 @@ a {
     width: 210px;
     text-align: center;
   }
+  .about-price {
+    margin-top: 498px;
+  }
   .about-price__list-item {
     height: 90px;
   }
