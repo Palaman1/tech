@@ -1253,7 +1253,7 @@ a {
     margin-left: 110%;
   }
   .brgr__btn::before {
-    margin-left: -13px;
+    margin-left: -14px;
   }
   .brgr__list {
     display: block;
@@ -1314,7 +1314,7 @@ a {
     margin-top: 498px;
   }
   .about-price__list-item {
-    height: 90px;
+    height: 130px;
   }
   .about-price__title {
     text-align: center;
