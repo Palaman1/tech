@@ -1345,6 +1345,12 @@ a {
   .form__btn {
     width: 100%;
   }
+  .accordion-title {
+    padding-left: 14px;
+  }
+  .accordion-title__text {
+    padding-right: 0;
+  }
   .footer__top {
     margin-top: 50px;
     text-align: center;
